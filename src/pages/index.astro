@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1><font color="red"> Jim Dick</h1></font> 
+			<h2><font color="red">Compsecure.us</font></h2>
+			<p>
+				Protect Your CyberSpace.
+				It Belongs to You.
+			</p>
+			          <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Jim</button>
+			<p>
+				<h1><font color="lightgreen">Are you compromised?</font></h1>
+				<p>If your cyberspace is compromised, you can lose more than your data, banking information, and family photos. You can lose sleep, peace, and privacy. What else would you lose if you were hacked? If you do nothing to protect your cyber world, you are at risk.</p>
+			</p>
+			<h1><font color="orange">I can help</font></h1>
+			<p>
+              You can secure your cyber space with a few simple tools.</p>
+		<h1><font color="blue">No more fear</font></h1>
+		<p>
+I know the feeling of frustration and fear when you discover your data is in the hands of someone you do not know and is expecting you to pay them good money to fix your problem. I have been in this situation. It is not a good feeling. After gaining the courage to fire these scoundrels, I researched and secured my family’s Cyberspace using a few tools.</p>
+			<h1><font color="red">Start today</font></h1>
+			<p>Replace the feeling of vulnerability with the confidence of knowing you have secured your personal data against intruders.
+			</p>
+			          <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Jim</button>
+
+		</main>
+		<Footer />
+	</body>
+</html>
